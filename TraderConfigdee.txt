@@ -137,10 +137,10 @@
 		BaseRadio,				*,		5000,		2000
 		NVGoggles,				*,		15000,     	800
 
-	<Category>Equipamentos de mineração
-		FreezeAnvil_kit,         *,       3000,      500
-		FreezeFurnace_Kit,       *,       5000,      500
-		FreezeGrindingStone_kit, *,       3000,      500
+	//<Category>Equipamentos de mineração
+		//FreezeAnvil_kit,         *,       3000,      500
+		//FreezeFurnace_Kit,       *,       5000,      500
+		//FreezeGrindingStone_kit, *,       3000,      500
 
 	<Category> Fogueira e Iluminação
 		Chemlight_Blue,			*,		200,		150
@@ -172,7 +172,7 @@
 		MediumGasCanister,		*,		500,		50
 		LargeGasCanister,		*,		1000,		80
 		CanisterGasoline,		*,		1000,		500
-		NailBox,				*,		25000,		1000
+		NailBox,				*,		50000,		25000
 		BarbedWire,				*,		950,		100
 		CodeLock,				*,		25000,		800
 		Barrel_Blue,			M,		10000,		1500
@@ -1461,11 +1461,11 @@
 		Offroad_02,				VNK,		500000,		110000
 
 	<Category> Quadbike
-		Croco_QuadBike_Grey,                   VNK, 90000, 50000
-		Croco_QuadBike_Yellow,                 VNK, 90000, 50000
-		Croco_QuadBike_Green,                  VNK, 90000, 50000
-		Croco_QuadBike_Red,                    VNK, 90000, 50000
-		Croco_QuadBike_Black,                  VNK, 90000, 50000
+		Croco_QuadBike_Grey,                   VNK, 120000, 50000
+		Croco_QuadBike_Yellow,                 VNK, 120000, 50000
+		Croco_QuadBike_Green,                  VNK, 120000, 50000
+		Croco_QuadBike_Red,                    VNK, 120000, 50000
+		Croco_QuadBike_Black,                  VNK, 120000, 50000
 
 	<Category> Carros Mods
 		TLC_200,	       		VNK,            550000,          100000
@@ -1519,38 +1519,38 @@
 
 <Trader> Caçador
         <Category> Peles	
-		BearPelt,				S,		-1,		500
-		CowPelt,				S,		-1,		500
-		DeerPelt,				S,		-1,		500
-		GoatPelt,				S,		-1,		500
-		PigPelt,				S,		-1,		500
+		BearPelt,				S,		-1,		400
+		CowPelt,				S,		-1,		400
+		DeerPelt,				S,		-1,		400
+		GoatPelt,				S,		-1,		400
+		PigPelt,				S,		-1,		400
 		RabbitPelt,				S,		-1,		200
-		SheepPelt,				S,		-1,		500
-		WildboarPelt,			S,		-1,		500
+		SheepPelt,				S,		-1,		400
+		WildboarPelt,			S,		-1,		400
 		WolfPelt,				S,		-1,		500
-		Radioactive_wolf_pelt,	S,		-1,		2500
-		Radioactive_bear_pelt,	S,		-1,		3600		
+		Radioactive_wolf_pelt,	S,		-1,		2000
+		Radioactive_bear_pelt,	S,		-1,		4000		
 
 	<Category> Bifes
         ChickenBreastMeat,		S,		-1,		300
-		GoatSteakMeat,			S,		-1,		300
-		SheepSteakMeat,			S,		-1,		300
-		PigSteakMeat,			S,		-1,		300
-		BoarSteakMeat,			S,		-1,		300
-		WolfSteakMeat,			S,		-1,		300
+		GoatSteakMeat,			S,		-1,		200
+		SheepSteakMeat,			S,		-1,		200
+		PigSteakMeat,			S,		-1,		200
+		BoarSteakMeat,			S,		-1,		200
+		WolfSteakMeat,			S,		-1,		250
 		BearSteakMeat,          S,		-1,		300
-		DeerSteakMeat,			S,		-1,		350
+		DeerSteakMeat,			S,		-1,		250
 		CowSteakMeat,			S,		-1,		300
-		Bone,			        10,		-1,		80
-		Lard,			        S,		-1,		80
-		Guts,			        S,		-1,		80
-		Radioactive_wolf_Meat,	S,		-1,		300
-		Radioactive_bear_Meat,	S,		-1,		310
+		Bone,			        10,		-1,		180
+		Lard,			        S,		-1,		180
+		Guts,			        S,		-1,		180
+		Radioactive_wolf_Meat,	S,		-1,		350
+		Radioactive_bear_Meat,	S,		-1,		400
 
     <Category> Mutantes	
-		Diesel_Mutant_pelt,	    S,		-1,		2000
-		Diesel_Mutant2_pelt,	S,		-1,		2000
-		FS_HIMERA_LAPA,			S,		-1,		8000		
+		Diesel_Mutant_pelt,	    S,		-1,		3000
+		Diesel_Mutant2_pelt,	S,		-1,		3000
+		FS_HIMERA_LAPA,			S,		-1,		5000		
 
     <Category> Apicultura
 		rag_honey_pot,          *,		-1,  	20000
@@ -1895,7 +1895,7 @@
 		FOG_Hooded_Parka_ALP,				*,		10000, 		520
 
 	<Category> Operator Gear:Mochilas
-		FOG_Bag_6ShBagT_Green,				*,		-1, 		700
+		FOG_Bag_6ShBagT_Green,				*,		-1, 	700
 		FOG_Bag_6ShBagT_Black,				*,		-1,		700
 		FOG_Bag_6ShBagT_RG,					*,		-1,		700
 		FOG_Bag_6ShBagT_CB,					*,		-1,		700
@@ -2120,7 +2120,7 @@
 		FOG_TV110T_Medkit_MC,				*,		3500,		350
 		FOG_TV110T_UtilityPouch_Tan,		*,		3500,		350
 		FOG_TV110T_UtilityPouch_CB,			*,		3500,		350
-		FOG_TV110T_UtilityPouch_Black,		*,	        3500,		350
+		FOG_TV110T_UtilityPouch_Black,		*,	    3500,		350
 		FOG_TV110T_UtilityPouch_RG,			*,		3500,		350
 		FOG_TV110T_UtilityPouch_AU,			*,		3500,		350
 		FOG_TV110T_UtilityPouch_FG,			*,		3500,		350
@@ -2371,7 +2371,7 @@
 		BRTX_HeavyVest_Camo63,				*,		50000,		2000
 		BRTX_HeavyVest_Camo64,				*,		50000,		2000
 		BRTX_HeavyVest_Camo65,				*,		50000,		2000
-		BRTX_HeavyVest_Camo77,				*,		30000,		900
+		BRTX_HeavyVest_Camo77,				*,		50000,		2000
 		BRTX_HeavyVest_Camo78,				*,		50000,		2000
 		BRTX_HeavyVest_Camo79,				*,		50000,		2000
 		BRTX_HeavyVest_Camo81,				*,		50000,		2000
@@ -2565,7 +2565,7 @@
 		BRTX_Operatorshirt_Camo56A,				*,		50000,		1000
 		BRTX_Operatorshirt_Camo65,				*,		50000,		1000
 		BRTX_Operatorshirt_Camo65A,				*,		50000,		1000
-		BRTX_Operatorshirt_Camo77,				*,		40000,		900
+		BRTX_Operatorshirt_Camo77,				*,		50000,		1000
 		BRTX_Operatorshirt_Camo77A,				*,		50000,		1000
 		BRTX_Operatorshirt_Camo77_1,			*,		50000,		1000
 		BRTX_Operatorshirt_Camo77_1A,			*,		50000,		1000
@@ -2618,7 +2618,7 @@
 		BRTX_combatpants_Camo56A,				*,		20000,		1000
 		BRTX_combatpants_Camo65,				*,		20000,		1000
 		BRTX_combatpants_Camo65A,				*,		20000,		1000
-		BRTX_combatpants_Camo77,				*,		10000,		900
+		BRTX_combatpants_Camo77,				*,		20000,		1000
 		BRTX_combatpants_Camo77A,				*,		20000,		1000
 		BRTX_combatpants_Camo77_1,				*,		20000,		1000
 		BRTX_combatpants_Camo77_1A,				*,		20000,		1000
@@ -2723,7 +2723,7 @@
 		BRTX_carrier_backpack_Camo63,				*,		280000,		1200
 		BRTX_carrier_backpack_Camo64,				*,		280000,		1200
 		BRTX_carrier_backpack_Camo65,				*,		280000,		1200
-		BRTX_carrier_backpack_Camo77,				*,		180000,		900
+		BRTX_carrier_backpack_Camo77,				*,		280000,		1200
 		BRTX_carrier_backpack_Camo77A,				*,		280000,		1200
 		BRTX_carrier_backpack_Camo78,				*,		280000,		1200
 		BRTX_carrier_backpack_Camo79,				*,		280000,		1200
@@ -3533,46 +3533,46 @@
 		YK_Cassette_KyklaKoldyna,					*,		1000,			600
 		YK_Cassette_PrignySoSkaly,					*,		1000,			600
 		YK_Cassette_SevernyiFlot,					*,		1000,			600
-		JMC_Radio_CassetteTape_MusicTape2,			*,		-1,			2500
-		JMC_Radio_CassetteTape_MusicTape2,			*,		-1,			2500
-		JMC_Radio_CassetteTape_MusicTape3,			*,		-1,			2500
+		JMC_Radio_CassetteTape_MusicTape2,			*,		-1,				2500
+		JMC_Radio_CassetteTape_MusicTape2,			*,		-1,				2500
+		JMC_Radio_CassetteTape_MusicTape3,			*,		-1,				2500
 
     <Category> Itens Raros
-		WitchHood_Black,	                *,       -1,	50000
-		WitchHood_Brown,	                *,       -1,	40000
-		WitchHood_Red,	                    *,       -1,	30000
-        Diesel_TortillaBag_GRBSkin,	        *,       500000,	100000 
+		WitchHood_Black,	                *,       -1,		50000
+		WitchHood_Brown,	                *,       -1,		40000
+		WitchHood_Red,	                    *,       -1,		30000
+        Diesel_TortillaBag_GRBSkin,	        *,       -1,		100000 
         
 <Trader> Traficante
 	<Category> Cannabis
-		CP_Pouch,								*,		2500,		1000
+		CP_Pouch,								*,		2500,		500
 		CP_EmptyBag,							16,		500,		100
 		CP_Workbench_Kit,						*,		15000,		100
-		CP_Tobacco,								*,		2000,		1000
+		CP_Tobacco,								*,		2000,		500
 		CP_Bagger,								*,		2000,		200
 		CP_PlasticWrapper,						*,		2000,		1000
 		CP_PlasticRoll,							*,		500,		100
 		CP_Relief_Balm,							*,		500,		150
 		CP_RollingPapers,						*,		500,,		150	
-		CigarettePack_Chernamorka,				*,		900,		500
-		CigarettePack_Merkur,					*,		900,		500
-		CigarettePack_Partyzanka,				*,		900,		500
-		CP_CigarettePack_CannabisSkunk,			*,		1200,		800
-		CP_CannabisBrickSkunk,					1,		-1,		10000
-		CP_CigarettePack_CannabisBlue,			*,		2400,		1600
-		CP_CannabisBrickBlue,					1,		-1,		20000
-		CP_CigarettePack_CannabisKush,			*,		3500,		2000
-		CP_CannabisBrickKush,					1,		-1,		20000
-		CP_CigarettePack_CannabisStardawg,		*,		5000,		3000
-		CP_CannabisBrickStardawg,				1,		-1,		20000
-		CP_CigarettePack_CannabisFuture,		*,		5000,		3150
-		CP_CannabisBrickFuture,					1,		-1,		25000	
+		CigarettePack_Chernamorka,				*,		900,		300
+		CigarettePack_Merkur,					*,		900,		300
+		CigarettePack_Partyzanka,				*,		900,		300
+		CP_CigarettePack_CannabisSkunk,			*,		1200,		500
+		CP_CannabisBrickSkunk,					1,		-1,			10000
+		CP_CigarettePack_CannabisBlue,			*,		2400,		800
+		CP_CannabisBrickBlue,					1,		-1,			20000
+		CP_CigarettePack_CannabisKush,			*,		3500,		1000
+		CP_CannabisBrickKush,					1,		-1,			20000
+		CP_CigarettePack_CannabisStardawg,		*,		5000,		2000
+		CP_CannabisBrickStardawg,				1,		-1,			20000
+		CP_CigarettePack_CannabisFuture,		*,		5000,		2150
+		CP_CannabisBrickFuture,					1,		-1,			25000	
 		CP_CigarettePack_CannabisS1,			*,		5000,		3150
-		CP_CannabisBrickS1,						1,		-1,		30000
+		CP_CannabisBrickS1,						1,		-1,			30000
 		CP_CigarettePack_CannabisNomad,			*,		5000,		3000
-		CP_CannabisBrickNomad,					1,		-1,		30000
+		CP_CannabisBrickNomad,					1,		-1,			30000
 		CP_CigarettePack_CannabisBlackFrost,	*,		5000,		3000
-		CP_CannabisBrickBlackFrost,				1,		-1,		30000
+		CP_CannabisBrickBlackFrost,				1,		-1,			30000
 		CP_JointKush,			                *,		500,		300
 		CP_JointStardawg,			            *,		500,		300
 		CP_JointFuture,			                *,		500,		300
@@ -3740,36 +3740,36 @@
 		SNAFU_AS50_GUN,                    W,		160000,		10000
 		SNAFUASh12,                        W,		130000,		10000
 		SNAFUVSSK,		           		   W,		130000,		10000
-		SNAFUAlligator,                    W,		200000,		10000
+		SNAFUAlligator,                    W,		-1,			10000
 
 	<Category> Armas Diesel
-		Diesel_Colt1911_Gold,			W,	5000,			1220
-		Diesel_Colt1911_Snow,			W,	5000,			1220
-		Diesel_WOLFFColt1911,			W,	5000,			1220
-		Diesel_WOLFFEngraved1911,		W,	5000,			1220
-		Diesel_BEARColt1911,			W,	5000,			1220
-		Diesel_BEAREngraved1911,		W,	5000,			1220
-		Diesel_Saiga,					W,	150000,			2800
-		Diesel_Saiga_Snow,				W,	150000,			2800
-		Diesel_Ruger1022,				W,	150000,			2800
-		Diesel_Ruger1022_KryptecSnow,	W,	150000,			2800
-		Diesel_Saiga_Gold,              W,	5000,			2000
-		Diesel_Scout_Chernarus,         W,	80000,			3300
-		Diesel_Scout_Livonia,           W,	80000,			3300
-		Diesel_Scout,                   W,	80000,			3300
-		Diesel_AKH_Camo,				W,	200000,			2300
-		Diesel_AKH_BlkRed,				W,	200000,			2300
-		Diesel_AKH_BluGn,				W,	200000,			2300
-		Diesel_AKH_PurGn,				W,	200000,			2300
-		Diesel_AKH_RedPurB,				W,	200000,			2300
-		Diesel_AKH_YPur,				W,	200000,			2300
-		Diesel_Dragunov,				W,	240000,			3500
-		Diesel_Dragunov_Wood,			W,	240000,			3500
-		Diesel_Dragunov_Wood_Lgreen,	W,	240000,			3500
-		Diesel_Dragunov_Wood_Purple,	W,	240000,			3500
-		Diesel_Dragunov_Wood_Red,		W,	240000,			3500
-		Diesel_Dragunov_Wood_Wthrd,		W,	240000,			3500
-		Diesel_Dragunov_Wood_Yellow,	W,	240000,			3500
+		Diesel_Colt1911_Gold,			W,	5000,		1220
+		Diesel_Colt1911_Snow,			W,	5000,		1220
+		Diesel_WOLFFColt1911,			W,	5000,		1220
+		Diesel_WOLFFEngraved1911,		W,	5000,		1220
+		Diesel_BEARColt1911,			W,	5000,		1220
+		Diesel_BEAREngraved1911,		W,	5000,		1220
+		Diesel_Saiga,					W,	150000,		2800
+		Diesel_Saiga_Snow,				W,	150000,		2800
+		Diesel_Ruger1022,				W,	150000,		2800
+		Diesel_Ruger1022_KryptecSnow,	W,	150000,		2800
+		Diesel_Saiga_Gold,              W,	5000,		2000
+		Diesel_Scout_Chernarus,         W,	80000,		3300
+		Diesel_Scout_Livonia,           W,	80000,		3300
+		Diesel_Scout,                   W,	80000,		3300
+		Diesel_AKH_Camo,				W,	200000,		2300
+		Diesel_AKH_BlkRed,				W,	200000,		2300
+		Diesel_AKH_BluGn,				W,	200000,		2300
+		Diesel_AKH_PurGn,				W,	200000,		2300
+		Diesel_AKH_RedPurB,				W,	200000,		2300
+		Diesel_AKH_YPur,				W,	200000,		2300
+		Diesel_Dragunov,				W,	240000,		3500
+		Diesel_Dragunov_Wood,			W,	240000,		3500
+		Diesel_Dragunov_Wood_Lgreen,	W,	240000,		3500
+		Diesel_Dragunov_Wood_Purple,	W,	240000,		3500
+		Diesel_Dragunov_Wood_Red,		W,	240000,		3500
+		Diesel_Dragunov_Wood_Wthrd,		W,	240000,		3500
+		Diesel_Dragunov_Wood_Yellow,	W,	240000,		3500
 		Diesel_DFAL,					W,	200000,		5000
 		Diesel_DFAL_LMossy,				W,	200000,		5000
 		Diesel_DFAL_SnowGhillie,		W,	200000,		5000
@@ -4056,7 +4056,7 @@
 		BRTX_Alligator_Snow,			W,			-1,		10000
 
     <Category> Especial 
-       	Diesel_DFALZ_Racey3,			W,		5000000,	500000
+       	Diesel_DFALZ_Racey3,			W,		-1,			500000
        	Diesel_DFALZ_AP338_Drum375,		*,		500000,     40000
         FS_GausRifle,			      	W,		-1,	        100000
         Mag_Bat_Gaus_10Rnd,		      	*,		300000,     80000
